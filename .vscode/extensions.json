@@ -1,0 +1,42 @@
+{
+  "recommendations": [
+    // Javascript
+    "usernamehw.errorlens", // Identifica errores en la sintaxis y los resalta
+    "xabikos.javascriptsnippets", // Snippets para Javascript
+    "wallabyjs.quokka-vscode", // Ejecuta el codigo JS e identifica errores
+    // React.js
+    "rodrigovallades.es7-react-js-snippets",
+    "styled-components.vscode-styled-components", // Formatea el estilo del codigo CSS en los Styled Components
+    "burkeholland.simple-react-snippets",
+    // HTML & CSS
+    "formulahendry.auto-rename-tag",
+    "ecmel.vscode-html-css",
+    "anseki.vscode-color",
+    "ritwickdey.liveserver",
+    "naumovs.color-highlight", // Resalta los colores en el CSS y JS
+    "Zignd.html-css-class-completion", // Proporciona un autocompletado automatico de las clases en el HTML, basado en las clases CSS
+    // Bootstrap
+    "AnbuselvanRocky.bootstrap5-vscode", // Snippets para Bootstrap
+    // Vue
+    "Vue.volar", // Resalta la sintaxis de Vue
+    //Angular
+    "Angular.ng-template",
+    "johnpapa.angular2",
+    // Formatters
+    "esbenp.prettier-vscode", // Prettier: se necesita configurar como predeterminado y luego con alt + shift + f formatea el codigo si no hay errores
+    "adpyke.vscode-sql-formatter", // Resalta la sintaxis SQL e indenta al formatear
+    // Simulador de Requests
+    "rangav.vscode-thunder-client", // Simula una request. Super util como reemplazo de Postman y de Insomnia
+    // GIT
+    "mhutchie.git-graph", // Muestra el flujo del repositorio del proyecto, con sus commits y sus branches de una manera super visual
+    "eamodio.gitlens", // Renderiza en pantalla la informacion de la ultima modificacion de las distintas lineas de codigos en base a la metadata del commit
+    // Otros
+    "christian-kohler.path-intellisense", // Identificador de Ruta Relativa con autocompletado
+    "blackboxapp.blackbox", // Sugerencia de Codigo de IA
+    "eamodio.gitlens", // Informacion de Repositorios (ultimos cambios y ajustes),
+    "Tobermory.es6-string-html", // Resalta la sintaxis HTML dentro de strings multilinea en Javascript (ideal para Styled Components)
+    "tomoki1207.pdf", // Permite abrir PDFs dentro de VSCode
+    "aaron-bond.better-comments", //Permite agregar colores a los comentarios
+    "kisstkondoros.vscode-gutter-preview" // Muestra previews de las imagenes en el codigo
+  ]
+}
