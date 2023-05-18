@@ -1,0 +1,83 @@
+.cardContainer {
+  display: inline-block;
+  margin: 2vw;
+  vertical-align: top; /* Alinea las tarjetas en su margen superior */
+}
+
+.card {
+  margin: 1vw;
+  padding: 10px;
+  width: 260px; /* Establece un ancho fijo */
+  max-height: 250px; /* Establece una altura máxima */
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
+    0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  background-color: rgb(255, 255, 255);
+  font-family: sans-serif;
+  overflow: hidden; /* Oculta cualquier contenido que se desborde */
+  transition: max-height 0.75s; /* Agrega una transición suave */
+}
+
+.card:hover {
+  max-height: 100%; /* Ajusta la altura máxima a 100% para expandirse completamente */
+}
+
+.content {
+  margin-top: 1rem;
+}
+
+.content .header {
+  margin-top: 0.5rem;
+}
+
+.image {
+  position: relative;
+  width: 100%;
+  height: 150px;
+  border-radius: 4px;
+  /* padding: 9px; */
+}
+.image img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 9;
+  width: 100%;
+  height: 150px;
+  border-radius: 4px;
+}
+
+.tag {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  z-index: 99;
+  text-transform: capitalize;
+  background-color: rgba(0, 0, 0, 0.425);
+  padding: 2px 8px;
+  border-radius: 4px;
+  color: #fff;
+}
+
+.date {
+  display: flex;
+  font-size: 0.75rem;
+  line-height: 1rem;
+  align-items: center;
+  margin: 2px;
+}
+
+.title {
+  display: block;
+  font-size: 1.25rem;
+  line-height: 1.35rem;
+  font-weight: 600;
+  padding-bottom: 5px;
+  padding-top: 14px;
+}
+
+.description {
+  line-height: 1.375;
+  font-size: 12px;
+  overflow: hidden; /* Oculta cualquier contenido que se desborde */
+  height: calc(100% - 60px); /* Establece la altura de la descripción */
+}
