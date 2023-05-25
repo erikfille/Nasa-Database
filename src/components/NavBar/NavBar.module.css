@@ -1,0 +1,8 @@
+.navContainer {
+  display: flex;
+}
+
+.logoImg {
+  width: 10vw;
+  margin: auto;
+}

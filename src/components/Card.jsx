@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import styles from "./Card.module.css";
 
 export default function Card(props) {
@@ -15,9 +16,9 @@ export default function Card(props) {
           </div>
         </div>
         <div className={styles.info}>
-          <a rel="noopener noreferrer" href="#" className="block">
+          <Link to={`detail/${props.nasa_id}`} className="block">
             <span className={styles.title}>{props.title}</span>
-          </a>
+          </Link>
           <p className={styles.description}>{props.description}</p>
         </div>
       </div>
